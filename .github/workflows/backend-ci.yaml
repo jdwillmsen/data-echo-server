@@ -12,6 +12,7 @@ jobs:
           fetch-depth: 0
           path: backendNode
       - uses: actions/setup-node@v4
+        working-directory: backendNode
         with:
           node-version: 20
           cache: 'npm'
