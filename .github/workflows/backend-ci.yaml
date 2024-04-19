@@ -17,4 +17,5 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Jest tets
+        working-directory: backendNode
         run: npm test
